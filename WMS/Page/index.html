@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../scripts/css/style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="login-container">
+            <h2>Login</h2>
+            <input type="text" v-model="username" placeholder="Username">
+            <input type="password" v-model="password" placeholder="Password">
+            <button @click="login">Login</button>
+        </div>
+    </div>
+    <script src="../VueRepo/vue.global.js"></script>
+    <script src="../scripts/js/login.js"></script>
+</body>
+</html>
